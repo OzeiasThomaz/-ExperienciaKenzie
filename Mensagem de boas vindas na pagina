@@ -1,0 +1,6 @@
+let nome = "ozeias";
+alert('Olá, seja bem-vindo(a), ' + nome + '!')
+if (nome !== undefined) {
+  const mensagem = document.getElementById('mensagem');
+  mensagem.classList.remove('hidden');
+}
